@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/icon.ico">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/script.js"></script>
+	<title>camera-shop | Digital Cameras</title>
+</head>
+<body>
+
+	<div class="wrapper"> <!-- All class complete! -->
+	
+							<!-- Начало блока header -->
+
+		<div class="leftHeader">
+			<a class="logo" href="#"><img src="img/logo.png" alt="Logo"></a>
+			<h1 class="font-1"><a href="#">Maxx<span>Cam</span></a></h1>
+			<h2 class="font-2"><a href="#">A Picture Perfect Camera Store</a></h2>
+			<a href="#" class="basketCount" onclick="show_func()">99</a>
+		</div>
+
+		<nav>
+			<ul class="upperList">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Digital Cameras</a></li>
+				<li><a href="#">Lenses &amp; Accessories</a></li>
+				<li><a href="#">Contact Us</a>
+					<ul class="lowerList">
+						<li><a href="#">FAQ</a></li> <!-- Li elements complete -->
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<span class="phone">Call Us 1-800-000-0000</span> <!-- This is not li -->
+		<div class="clear"></div>
+
+							<!-- Конец блока header -->
+
+							<!-- Начало блока content -->
+		<div class="insidePageThree">
+			<div class="basketOptions">
+				<h3>Моя корзина (30)</h3>
+				<a href="#" class="order">Оформить заказ</a>
+			</div>
+
+			<div class="attributes clear">
+				<p class="firstAttr">Товар</p>
+				<p class="secondAttr">Наименование</p>
+				<p class="thirdAttr">Количество</p>
+				<p class="fourthAttr">Итого</p>
+			</div>
+			
+			<div class="clear"></div>
+
+			<ul>
+				<li>
+					<div class="product-image"><img src="img/slot2.jpg" height="500" width="500" alt=""></div>
+					<div class="product-name">
+						<p class="prod">I'm a product</p>	
+						<p>Артикул: 0012</p>
+						<p class="price">Цена: $19.99</p>
+						<a href="#">Удалить из корзины</a>
+					</div>
+					<div class="product-counter">counter</div>
+					<div class="total-price">$59.97</div>
+				</li>
+
+				<li>
+					<div class="product-image"><img src="img/slot2.jpg" height="500" width="500" alt=""></div>
+					<div class="product-name">
+						<p class="prod">I'm a product</p>	
+						<p>Артикул: 0012</p>
+						<p class="price">Цена: $19.99</p>
+						<a href="#">Удалить из корзины</a>
+					</div>
+					<div class="product-counter">counter</div>
+					<div class="total-price">$59.97</div>
+				</li>
+
+				<li>
+					<div class="product-image"><img src="img/slot2.jpg" height="500" width="500" alt=""></div>
+					<div class="product-name">
+						<p class="prod">I'm a product</p>	
+						<p>Артикул: 0012</p>
+						<p class="price">Цена: $19.99</p>
+						<a href="#">Удалить из корзины</a>
+					</div>
+					<div class="product-counter">counter</div>
+					<div class="total-price">$59.97</div>
+				</li>
+			</ul>
+			
+			<div class="amount">
+				<a href="#">Добавить сообщение продавцу</a>
+				<p>Сумма: $199.90</p>
+				<p>Скидка, налог и цена доставки будут рассчитаны при оформлении <br />заказа.</p>
+			</div>
+			
+			<div class="footerContent clear">
+				<img src="img/ssl.png" height="98" width="354" alt="">
+				<a href="#" class="order">Оформить заказ</a>
+			</div>
+		</div>
+
+							<!-- Конец блока content -->
+
+							<!-- Начало блока footer -->
+
+		<div class="footer">
+
+			<div class="contacts">
+				<h3>Contact Us</h3>
+				<p>500 Terry Francois Street San Francisco <br />
+				   CA 94158 Tel: 123-456-7890 <br />
+				   info@mysite.com </p>
+				   <div class="socials">
+					   	<a href="#"><img src="img/twitter.png" height="32" width="32" alt="twitter"></a>
+					   	<a href="#"><img src="img/facebook.png" height="32" width="32" alt="facebook"></a>
+					   	<a href="#"><img src="img/google_plus.png" height="32" width="32" alt="google+"></a>
+					   	<a href="#"><img src="img/instagram.png" height="32" width="32" alt="instagram"></a>
+				   </div>
+			</div>
+
+			<div class="customerService">
+				<h3>Customer Service</h3>
+				<a href="#">Contacts Us ></a> <span>/</span>
+				<a href="#">Shipping ></a> 
+					<br />
+				<a href="#">Returnes ></a> <span>/</span>
+				<a href="#">Payment &amp; Warranty ></a>
+			</div>
+
+			<div class="payCard">
+				<h3>We Accept</h3>
+				<img src="img/mCard.png" height="26" width="42" alt="Master Card">
+				<img src="img/visa.png" height="26" width="42" alt="Visa">
+			</div>
+
+			<p class="down">© 2023 by MaxxCam. Proudly created with <a href="#">Wix.com</a></p>
+
+		</div>
+	</div>
+
+							<!-- Конец блока footer -->
+
+	
+	<div class="mask-content" onclick="close_func()"></div>	
+
+
+	<div id="inBasket">
+		
+				<div class="headerBasket">
+					<h1>Корзина</h1>
+					<div class="closeBasket" onclick="close_func()">
+						<a href="#" title="Закрыть корзину"><img src="img/closeBasket.png" height="39" width="33" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="product-basket-scroll-hide">	
+					<div class="productBasket">
+						<ul>
+							<li>
+								<div class="product-img"><img src="img/slot1.jpg" height="500" width="500" alt=""></div>
+								<div class="product-info">
+									<span class="name-product">I'm a product</span>
+									<span>КОЛИЧЕСТВО: 14</span>
+									<span>$19.99</span>
+								</div>
+								<div class="product-delete">
+									<a href="#" title="Удалить из корзины"></a>
+								</div>
+							</li>
+							<li>
+								<div class="product-img"><img src="img/slot3.jpg" height="500" width="500" alt=""></div>
+								<div class="product-info">
+									<span class="name-product">I'm a product</span>
+									<span>КОЛИЧЕСТВО: 14</span>
+									<span>$19.99</span>
+								</div>
+								<div class="product-delete">
+									<a href="#" title="Удалить из корзины"></a>
+								</div>
+							</li>
+							<li>
+								<div class="product-img"><img src="img/slot2.jpg" height="500" width="500" alt=""></div>
+								<div class="product-info">
+									<span class="name-product">I'm a product</span>
+									<span>КОЛИЧЕСТВО: 14</span>
+									<span>$19.99</span>
+								</div>
+								<div class="product-delete">
+									<a href="#" title="Удалить из корзины"></a>
+								</div>
+							</li>
+							<li>
+								<div class="product-img"><img src="img/slot1.jpg" height="500" width="500" alt=""></div>
+								<div class="product-info">
+									<span class="name-product">I'm a product</span>
+									<span>КОЛИЧЕСТВО: 14</span>
+									<span>$19.99</span>
+								</div>
+								<div class="product-delete">
+									<a href="#" title="Удалить из корзины"></a>
+								</div>
+							</li>
+							<li>
+								<div class="product-img"><img src="img/slot3.jpg" height="500" width="500" alt=""></div>
+								<div class="product-info">
+									<span class="name-product">I'm a product</span>
+									<span>КОЛИЧЕСТВО: 14</span>
+									<span>$19.99</span>
+								</div>
+								<div class="product-delete">
+									<a href="#" title="Удалить из корзины"></a>
+								</div>
+							</li>
+							<li>
+								<div class="product-img"><img src="img/slot3.jpg" height="500" width="500" alt=""></div>
+								<div class="product-info">
+									<span class="name-product">I'm a product</span>
+									<span>КОЛИЧЕСТВО: 14</span>
+									<span>$19.99</span>
+								</div>
+								<div class="product-delete">
+									<a href="#" title="Удалить из корзины"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footerBasketAbsolute">
+					<div class="footerBasketTotalPrice">
+							<span>Сумма</span>
+							<span>$000.00</span>
+					</div>
+					<div class="goToBasket"><a href="#">Перейти в корзину</a></div>
+				</div>
+			</div>	
+</body>
+</html>
